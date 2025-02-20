@@ -8,10 +8,10 @@
     "imageUrl": "https://www.thespruceeats.com/thmb/HgM2h42z1HGEcSWkWk5CgAjDDpQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/how-to-grill-salmon-2216658-hero-01-a9c948f8a238400ebaafc0caf509c7fa.jpg",
     "ingredients": ["сьомга", "зехтин", "лимон", "копър"],
     "macros": {
-      "calories": 450,
-      "protein": 35,
-      "carbs": 8,
-      "fat": 30
+      "калории": 450,
+      "протеин": 35,
+      "въглехидрати": 8,
+      "мазнини": 30
     }
   },
   {
@@ -23,10 +23,10 @@
     "imageUrl": "https://cdn.loveandlemons.com/wp-content/uploads/2024/12/caesar-salad.jpg",
     "ingredients": ["романско маруля", "крутони", "пармезан", "дресинг"],
     "macros": {
-      "calories": 320,
-      "protein": 12,
-      "carbs": 20,
-      "fat": 22
+      "калории": 320,
+      "протеин": 12,
+      "въглехидрати": 20,
+      "мазнини": 22
     }
   },
   {
@@ -38,10 +38,10 @@
     "imageUrl": "https://helal.bg/wp-content/uploads/2024/02/106128333_2717947301758245_5956937884142951356_n-1080x1080-1.jpg",
     "ingredients": ["орехи", "масло", "мед", "филo тесто"],
     "macros": {
-      "calories": 450,
-      "protein": 5,
-      "carbs": 50,
-      "fat": 20
+      "калории": 450,
+      "протеин": 5,
+      "въглехидрати": 50,
+      "мазнини": 20
     }
   },
   {
@@ -53,10 +53,10 @@
     "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeoBUl2L5VugaXVCjkVdRtNi8p_PIttRImgw&s",
     "ingredients": ["лук", "телешко месо"],
     "macros": {
-      "calories": 850,
-      "protein": 55,
-      "carbs": 65,
-      "fat": 30
+      "калории": 850,
+      "протеин": 55,
+      "въглехидрати": 65,
+      "мазнини": 30
     }
   }
 ]

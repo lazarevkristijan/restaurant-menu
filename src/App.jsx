@@ -12,6 +12,8 @@ import {
   styled,
 } from "@mui/material"
 import PropTypes from "prop-types"
+import { useTheme } from "@mui/material/styles"
+import { useMediaQuery } from "@mui/material"
 
 // Styled components
 const MenuCard = styled(Card)(({ theme }) => ({
@@ -51,6 +53,11 @@ export default function App({ menuItems }) {
 
   const categories = ["Всички", "Риба", "Месо", "Салата", "Десерти"]
 
+  const theme = useTheme()
+
+  const isMobile = useMediaQuery(theme.breakpoints.down("sm")) // Check if the screen is small (mobile)
+  const isTablet = useMediaQuery(theme.breakpoints.between("sm", "md")) // Check if the screen is between mobile and desktop
+
   return (
     <Container
       maxWidth="lg"
@@ -74,7 +81,6 @@ export default function App({ menuItems }) {
       <Grid2
         container
         spacing={4}
-        flex={1}
       >
         {menuItems
           .filter(
@@ -85,11 +91,14 @@ export default function App({ menuItems }) {
           .map((item) => (
             <Grid2
               item
-              xs={12}
-              sm={6}
-              md={4}
               key={item.id}
-              maxWidth="33%"
+              style={{
+                width: isMobile
+                  ? "100%" // Full width on mobile
+                  : isTablet
+                  ? "50%" // Half width on tablet
+                  : "30%", // 30% width on desktop
+              }}
             >
               <MenuCard>
                 {item.imageUrl && (
@@ -123,7 +132,7 @@ export default function App({ menuItems }) {
                     {item.description}
                   </Typography>
 
-                  <div>
+                  <div style={{ display: "flex" }}>
                     {item.ingredients.map((ing) => (
                       <Chip
                         label={ing}
@@ -138,7 +147,7 @@ export default function App({ menuItems }) {
                     {Object.entries(item.macros).map(([key, value]) => (
                       <MacroChip
                         key={key}
-                        label={`${key}: ${value}`}
+                        label={`${key}: ${value}г`}
                         size="small"
                       />
                     ))}
