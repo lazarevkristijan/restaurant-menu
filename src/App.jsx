@@ -10,15 +10,12 @@ import {
   Tabs,
   Tab,
   styled,
-  Box,
 } from "@mui/material"
 import PropTypes from "prop-types"
 
 // Styled components
 const MenuCard = styled(Card)(({ theme }) => ({
   transition: "transform 0.3s",
-  maxWidth: 350, // Set a max width for each menu card
-  width: "100%", // Ensure it stretches to the available space
   "&:hover": {
     transform: "translateY(-5px)",
     boxShadow: theme.shadows[6],
@@ -49,7 +46,6 @@ App.propTypes = {
     })
   ).isRequired,
 }
-
 export default function App({ menuItems }) {
   const [selectedCategory, setSelectedCategory] = useState("Всички")
 
@@ -78,7 +74,7 @@ export default function App({ menuItems }) {
       <Grid2
         container
         spacing={4}
-        justifyContent="flex-start" // Align items to the left for better wrapping
+        flex={1}
       >
         {menuItems
           .filter(
@@ -93,6 +89,7 @@ export default function App({ menuItems }) {
               sm={6}
               md={4}
               key={item.id}
+              maxWidth="33%"
             >
               <MenuCard>
                 {item.imageUrl && (
@@ -126,13 +123,7 @@ export default function App({ menuItems }) {
                     {item.description}
                   </Typography>
 
-                  <Box
-                    sx={{
-                      display: "flex",
-                      flexWrap: "wrap", // Make sure ingredients wrap
-                      gap: 1,
-                    }}
-                  >
+                  <div>
                     {item.ingredients.map((ing) => (
                       <Chip
                         label={ing}
@@ -141,16 +132,9 @@ export default function App({ menuItems }) {
                         sx={{ m: 0.5 }}
                       />
                     ))}
-                  </Box>
+                  </div>
 
-                  <Box
-                    sx={{
-                      display: "flex",
-                      flexWrap: "wrap", // Make sure macros wrap
-                      gap: 1,
-                      marginTop: "1rem",
-                    }}
-                  >
+                  <div style={{ marginTop: "1rem" }}>
                     {Object.entries(item.macros).map(([key, value]) => (
                       <MacroChip
                         key={key}
@@ -158,7 +142,7 @@ export default function App({ menuItems }) {
                         size="small"
                       />
                     ))}
-                  </Box>
+                  </div>
                 </CardContent>
               </MenuCard>
             </Grid2>

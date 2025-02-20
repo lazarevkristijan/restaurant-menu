@@ -4,7 +4,7 @@ import App from "./App.jsx"
 import Nav from "./components/Nav.jsx"
 import menuItems from "./data/menu-items.json"
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
-import { createTheme, ThemeProvider } from "@mui/material"
+import { Container, createTheme, ThemeProvider } from "@mui/material"
 import AdminPanel from "./components/AdminPanel.jsx"
 import ImageUpload from "./components/ImageUploader.jsx"
 
@@ -24,24 +24,31 @@ const theme = createTheme({
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <Router>
-      <ThemeProvider theme={theme}>
-        <Nav />
-        <Routes>
-          <Route
-            path="/"
-            element={<App menuItems={menuItems} />}
-          />
-          <Route
-            path="/admin"
-            element={<AdminPanel menuItems={menuItems} />}
-          />
-          <Route
-            path="/upload"
-            element={<ImageUpload />}
-          />
-        </Routes>
-      </ThemeProvider>
-    </Router>
+    <Container
+      style={{
+        background: `linear-gradient(rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), url('https://www.pngmart.com/files/13/Pattern-PNG-Transparent.png')`,
+        backgroundRepeat: "repeat",
+      }}
+    >
+      <Router>
+        <ThemeProvider theme={theme}>
+          <Nav />
+          <Routes>
+            <Route
+              path="/"
+              element={<App menuItems={menuItems} />}
+            />
+            <Route
+              path="/admin"
+              element={<AdminPanel menuItems={menuItems} />}
+            />
+            <Route
+              path="/upload"
+              element={<ImageUpload />}
+            />
+          </Routes>
+        </ThemeProvider>
+      </Router>
+    </Container>
   </StrictMode>
 )

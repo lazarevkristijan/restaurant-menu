@@ -32,7 +32,7 @@
   {
     "id": 3,
     "name": "Студена баклава",
-    "category": "Десерт",
+    "category": "Десерти",
     "description": "Турска сладкарска традиция",
     "price": 5,
     "imageUrl": "https://helal.bg/wp-content/uploads/2024/02/106128333_2717947301758245_5956937884142951356_n-1080x1080-1.jpg",
@@ -47,7 +47,7 @@
   {
     "id": 4,
     "name": "Бургер",
-    "category": "Основно ястие",
+    "category": "Месо",
     "description": "Сочен бургер с прясно телешко месо",
     "price": 24,
     "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeoBUl2L5VugaXVCjkVdRtNi8p_PIttRImgw&s",
