@@ -5,8 +5,8 @@ import Nav from "./components/Nav.jsx"
 import menuItems from "./data/menu-items.json"
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
 import { createTheme, ThemeProvider } from "@mui/material"
-import AdminPanel from "./components/AdminPanel.jsx"
-import ImageUpload from "./components/ImageUploader.jsx"
+// import AdminPanel from "./components/AdminPanel.jsx"
+// import ImageUpload from "./components/ImageUploader.jsx"
 
 const theme = createTheme({
   palette: {
@@ -38,13 +38,17 @@ createRoot(document.getElementById("root")).render(
               path="/"
               element={<App menuItems={menuItems} />}
             />
-            <Route
+            {/* <Route
               path="/admin"
               element={<AdminPanel menuItems={menuItems} />}
             />
             <Route
               path="/upload"
               element={<ImageUpload />}
+            /> */}
+            <Route
+              path="/hi"
+              element={<h2>Hello, you found the secret spot!</h2>}
             />
           </Routes>
         </ThemeProvider>

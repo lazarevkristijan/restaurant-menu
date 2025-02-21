@@ -6,15 +6,7 @@
     "description": "Свежа риба от Атлантика",
     "price": 22,
     "imageUrl": "https://www.thespruceeats.com/thmb/HgM2h42z1HGEcSWkWk5CgAjDDpQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/how-to-grill-salmon-2216658-hero-01-a9c948f8a238400ebaafc0caf509c7fa.jpg",
-    "ingredients": [
-      "сьомга",
-      "зехтин",
-      "лимон",
-      "копър",
-      "копър",
-      "копър",
-      "копър"
-    ],
+    "ingredients": ["сьомга", "зехтин", "лимон", "копър"],
     "macros": {
       "калории": 450,
       "протеин": 35,
@@ -65,6 +57,161 @@
       "протеин": 55,
       "въглехидрати": 65,
       "мазнини": 30
+    }
+  },
+  {
+    "id": 5,
+    "name": "Паста Карбонара",
+    "category": "Паста",
+    "description": "Италианска паста със сирене и бекон",
+    "price": 18,
+    "imageUrl": "https://www.simplyrecipes.com/thmb/G0WpDNn_iGeaSImHqH2TGiG8rjY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Simply-Recipes-Spaghetti-Carbonara-LEAD-7-82d6bacf7f3848a4943b14712ab205ff.jpg",
+    "ingredients": ["паста", "бекон", "яйца", "пармезан", "черен пипер"],
+    "macros": {
+      "калории": 550,
+      "протеин": 20,
+      "въглехидрати": 60,
+      "мазнини": 25
+    }
+  },
+  {
+    "id": 6,
+    "name": "Маргарита пица",
+    "category": "Пица",
+    "description": "Класическа италианска пица с доматен сос и моцарела",
+    "price": 14,
+    "imageUrl": "https://assets.biggreenegg.eu/app/uploads/2018/06/28115815/topimage-pizza-special17-800x500.jpg",
+    "ingredients": ["доматен сос", "моцарела", "босилек"],
+    "macros": {
+      "калории": 350,
+      "протеин": 15,
+      "въглехидрати": 45,
+      "мазнини": 15
+    }
+  },
+  {
+    "id": 7,
+    "name": "Печен патладжан с хумус",
+    "category": "Вегетарианско",
+    "description": "Печен патладжан с кремообразен хумус",
+    "price": 10,
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBafdesDk7YJhZdRdbFUnzvyiSxwlCkVcrfA&s",
+    "ingredients": ["патладжан", "хумус", "зехтин", "чесън"],
+    "macros": {
+      "калории": 300,
+      "протеин": 8,
+      "въглехидрати": 25,
+      "мазнини": 18
+    }
+  },
+  {
+    "id": 8,
+    "name": "Суши сет",
+    "category": "Суши",
+    "description": "Асортимент от суши ролца с риба и зеленчуци",
+    "price": 20,
+    "imageUrl": "",
+    "ingredients": ["суши ориз", "риба", "авокадо", "морски водорасли"],
+    "macros": {
+      "калории": 350,
+      "протеин": 25,
+      "въглехидрати": 50,
+      "мазнини": 8
+    }
+  },
+  {
+    "id": 9,
+    "name": "Крем брюле",
+    "category": "Десерти",
+    "description": "Френски десерт с хрупкава карамелизирана коричка",
+    "price": 7,
+    "imageUrl": "https://gotvach.bg/files/1200x800/brulee-eggs-sugar3.webp",
+    "ingredients": ["жълтъци", "сметана", "захар", "ванилия"],
+    "macros": {
+      "калории": 280,
+      "протеин": 4,
+      "въглехидрати": 30,
+      "мазнини": 18
+    }
+  },
+  {
+    "id": 10,
+    "name": "Тирамису",
+    "category": "Десерти",
+    "description": "Италиански десерт с кафе и маскарпоне",
+    "price": 6,
+    "imageUrl": "",
+    "ingredients": ["маскарпоне", "кафе", "какао", "яйца"],
+    "macros": {
+      "калории": 350,
+      "протеин": 7,
+      "въглехидрати": 45,
+      "мазнини": 15
+    }
+  },
+  {
+    "id": 11,
+    "name": "Бургер с пилешко",
+    "category": "Месо",
+    "description": "Пилешки бургер с авокадо и пикантен сос",
+    "price": 16,
+    "imageUrl": "https://pizzapalermo.bg/wp-content/uploads/2022/05/burger-7.jpg",
+    "ingredients": ["пилешко месо", "авокадо", "салата", "дресинг"],
+    "macros": {
+      "калории": 600,
+      "протеин": 35,
+      "въглехидрати": 45,
+      "мазнини": 25
+    }
+  },
+  {
+    "id": 12,
+    "name": "Гуакамоле с начос",
+    "category": "Закуски",
+    "description": "Авокадо гуакамоле със солени начос",
+    "price": 8,
+    "imageUrl": "https://i.ytimg.com/vi/dUymQkkifVQ/maxresdefault.jpg",
+    "ingredients": ["авокадо", "лимон", "червен лук", "чипс начос"],
+    "macros": {
+      "калории": 400,
+      "протеин": 5,
+      "въглехидрати": 40,
+      "мазнини": 25
+    }
+  },
+  {
+    "id": 13,
+    "name": "Том Ям супа",
+    "category": "Супи",
+    "description": "Тайландска супа с подправки и морски дарове",
+    "price": 12,
+    "imageUrl": "https://www.takeaway.com/bg/foodwiki/uploads/sites/9/2019/10/tom_yam_kung_2-1080x960.jpg",
+    "ingredients": [
+      "морски дарове",
+      "лимонова трева",
+      "кокосово мляко",
+      "чили"
+    ],
+    "macros": {
+      "калории": 250,
+      "протеин": 18,
+      "въглехидрати": 20,
+      "мазнини": 15
+    }
+  },
+  {
+    "id": 14,
+    "name": "Ризото с гъби",
+    "category": "Паста",
+    "description": "Италианско ризото с гъби и пармезан",
+    "price": 15,
+    "imageUrl": "https://bcdn.bonapeti.bg/uploads/recipes/rec10404/Risotto_with_mushroom1.jpg",
+    "ingredients": ["ориз", "гъби", "пармезан", "масло"],
+    "macros": {
+      "калории": 500,
+      "протеин": 15,
+      "въглехидрати": 55,
+      "мазнини": 25
     }
   }
 ]
