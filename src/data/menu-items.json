@@ -6,7 +6,15 @@
     "description": "Свежа риба от Атлантика",
     "price": 22,
     "imageUrl": "https://www.thespruceeats.com/thmb/HgM2h42z1HGEcSWkWk5CgAjDDpQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/how-to-grill-salmon-2216658-hero-01-a9c948f8a238400ebaafc0caf509c7fa.jpg",
-    "ingredients": ["сьомга", "зехтин", "лимон", "копър"],
+    "ingredients": [
+      "сьомга",
+      "зехтин",
+      "лимон",
+      "копър",
+      "копър",
+      "копър",
+      "копър"
+    ],
     "macros": {
       "калории": 450,
       "протеин": 35,

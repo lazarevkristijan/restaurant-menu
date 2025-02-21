@@ -143,7 +143,7 @@ export default function App({ menuItems }) {
                     {item.description}
                   </Typography>
 
-                  <div style={{ display: "flex" }}>
+                  <div style={{ display: "flex", flexWrap: "wrap" }}>
                     {item.ingredients.map((ing) => (
                       <Chip
                         label={ing}
