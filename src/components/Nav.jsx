@@ -20,7 +20,7 @@ export default function Nav() {
             variant="h4"
             sx={{ fontWeight: "300" }}
           >
-            Моят Ресторант
+            Моето заведение
           </Typography>
           <Box>
             {/* <Button
