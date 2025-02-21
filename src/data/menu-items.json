@@ -110,7 +110,7 @@
     "category": "Суши",
     "description": "Асортимент от суши ролца с риба и зеленчуци",
     "price": 20,
-    "imageUrl": "",
+    "imageUrl": "https://www.kikkoman.eu/fileadmin/user_upload/kikkoman.eu/Food-News/EU_make-your-own-sushi/sushi-kakkoii.jpeg",
     "ingredients": ["суши ориз", "риба", "авокадо", "морски водорасли"],
     "macros": {
       "калории": 350,
@@ -140,7 +140,7 @@
     "category": "Десерти",
     "description": "Италиански десерт с кафе и маскарпоне",
     "price": 6,
-    "imageUrl": "",
+    "imageUrl": "https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2024/09/THUMB-VIDEO-2_rev1-56.jpeg?im=Resize,width=742;",
     "ingredients": ["маскарпоне", "кафе", "какао", "яйца"],
     "macros": {
       "калории": 350,

@@ -2,11 +2,11 @@ import {
   AppBar,
   Toolbar,
   Typography,
-  Button,
+  // Button,
   Box,
   Container,
 } from "@mui/material"
-import { Link } from "react-router-dom"
+// import { Link } from "react-router-dom"
 
 export default function Nav() {
   return (
@@ -20,17 +20,17 @@ export default function Nav() {
             variant="h4"
             sx={{ fontWeight: "300" }}
           >
-            Tiamo Garden
+            Моят Ресторант
           </Typography>
           <Box>
-            <Button
+            {/* <Button
               color="inherit"
               component={Link}
               to="/"
             >
               Home
-            </Button>
-            <Button
+            </Button> */}
+            {/* <Button
               color="inherit"
               component={Link}
               to="/admin"
@@ -43,7 +43,7 @@ export default function Nav() {
               to="/upload"
             >
               Upload
-            </Button>
+            </Button> */}
           </Box>
         </Toolbar>
       </Container>
