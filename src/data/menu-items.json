@@ -30,6 +30,26 @@
     }
   },
   {
+    "id": 15,
+    "name": "Кока Кола",
+    "category": "Напитки",
+    "description": "0.25л",
+    "price": 3,
+    "imageUrl": "https://t4.ftcdn.net/jpg/02/84/65/61/360_F_284656117_sPF8gVWaX627bq5qKrlrvCz1eFfowdBf.jpg",
+    "ingredients": [],
+    "macros": {}
+  },
+  {
+    "id": 16,
+    "name": "Фанта",
+    "category": "Напитки",
+    "description": "0.25л",
+    "price": 3,
+    "imageUrl": "https://t3.ftcdn.net/jpg/02/94/38/74/360_F_294387467_RvmDw6qbKMYVO6CPZlqCaKCDghl8VT0m.jpg",
+    "ingredients": [],
+    "macros": {}
+  },
+  {
     "id": 3,
     "name": "Студена баклава",
     "category": "Десерти",
@@ -133,6 +153,16 @@
       "въглехидрати": 30,
       "мазнини": 18
     }
+  },
+  {
+    "id": 17,
+    "name": "Jack Daniels",
+    "category": "Напитки",
+    "description": "0.1л",
+    "price": 7,
+    "imageUrl": "https://images-svetnapojov-cdn.rshop.sk/gallery-big/products/0f3f4d696d6b90d59649b7c1b5617a10.png",
+    "ingredients": [],
+    "macros": {}
   },
   {
     "id": 10,

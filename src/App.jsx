@@ -51,7 +51,7 @@ App.propTypes = {
 export default function App({ menuItems }) {
   const [selectedCategory, setSelectedCategory] = useState("Всички")
 
-  const categories = ["Всички", "Риба", "Месо", "Салата", "Десерти"]
+  const categories = ["Всички", "Риба", "Месо", "Салата", "Десерти", "Напитки"]
 
   const theme = useTheme()
 
