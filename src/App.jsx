@@ -66,14 +66,25 @@ export default function App({ menuItems }) {
       <Tabs
         value={selectedCategory}
         onChange={(e, newValue) => setSelectedCategory(newValue)}
-        centered
-        sx={{ mb: 4 }}
+        sx={{
+          mb: 4,
+          overflowX: "auto",
+          display: "flex",
+          justifyContent: "center",
+        }}
+        scrollButtons="auto" // Adds scroll buttons for mobile
+        variant="scrollable" // Makes tabs scrollable on small screens
       >
         {categories.map((cat) => (
           <Tab
             label={cat}
             value={cat}
             key={cat}
+            sx={{
+              flexShrink: 0, // Prevents the tab from shrinking
+              minWidth: { xs: "auto", sm: "120px" }, // Adjusts the width of tabs for different screen sizes
+              textAlign: "center",
+            }}
           />
         ))}
       </Tabs>
